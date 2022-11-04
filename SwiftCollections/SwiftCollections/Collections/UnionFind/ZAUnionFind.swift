@@ -1,5 +1,5 @@
 //
-//  UnionFind.swift
+//  ZAUnionFind.swift
 //  SwiftCollections
 //
 //  Created by Do Huu Phuc on 29/09/2022.
@@ -7,16 +7,31 @@
 
 import Foundation
 
-struct UnionFind<T: Hashable> {
+//struct CommonUnionFindType<T: Hashable> : Hashable {
+//    var x: T
+//    var y: T
+//}
+
+struct CommonUnionFindType<T> : Hashable where T: Hashable {
+    var x: T
+    var y: T
+}
+
+struct ZAUnionFind<T: Hashable> {
     
     private var rank = [T: Int]()
     private var parent = [T: T]()
+    public private(set) var size: Int = 0
     
     public init() {}
     
-    private mutating func insert(_ element: T) {
+    public mutating func insert(_ element: T) {
+        if (self.parent[element] != nil) {
+            return
+        }
         self.parent[element] = element
         self.rank[element] = 1
+        self.size += 1
     }
     
     public mutating func find(_ element: T) -> T {
@@ -53,6 +68,8 @@ struct UnionFind<T: Hashable> {
             }
             self.parent[px] = py
         }
+        
+        self.size -= 1
         return true
     }
 }
