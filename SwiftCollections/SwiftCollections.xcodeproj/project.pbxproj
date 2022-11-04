@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E874603F28E53FA000CEE3C7 /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874603E28E53FA000CEE3C7 /* UnionFind.swift */; };
+		E821BE1E2900F273009CCFE9 /* IntegerToRoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = E821BE1D2900F273009CCFE9 /* IntegerToRoma.swift */; };
+		E874603F28E53FA000CEE3C7 /* ZAUnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874603E28E53FA000CEE3C7 /* ZAUnionFind.swift */; };
 		E891218728DC0A4C00B5FACC /* ReverseWordsInStringIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E891218628DC0A4C00B5FACC /* ReverseWordsInStringIII.swift */; };
 		E891218928DC576500B5FACC /* SearchInRotatedSrotedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E891218828DC576500B5FACC /* SearchInRotatedSrotedArray.swift */; };
+		E8A8819D28ED362700C35006 /* NumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A8819C28ED362700C35006 /* NumberOfIslands.swift */; };
+		E8C6F6E728F1A0510018B120 /* 3SumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C6F6E628F1A0510018B120 /* 3SumClosest.swift */; };
+		E8C6F6E928F1C0E30018B120 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C6F6E828F1C0E30018B120 /* Solution.swift */; };
 		E8DE4B9228D97560002825F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE4B9128D97560002825F1 /* AppDelegate.swift */; };
 		E8DE4B9428D97560002825F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE4B9328D97560002825F1 /* SceneDelegate.swift */; };
 		E8DE4B9628D97560002825F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE4B9528D97560002825F1 /* ViewController.swift */; };
@@ -46,9 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E874603E28E53FA000CEE3C7 /* UnionFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind.swift; sourceTree = "<group>"; };
+		E821BE1D2900F273009CCFE9 /* IntegerToRoma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerToRoma.swift; sourceTree = "<group>"; };
+		E874603E28E53FA000CEE3C7 /* ZAUnionFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAUnionFind.swift; sourceTree = "<group>"; };
 		E891218628DC0A4C00B5FACC /* ReverseWordsInStringIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInStringIII.swift; sourceTree = "<group>"; };
 		E891218828DC576500B5FACC /* SearchInRotatedSrotedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSrotedArray.swift; sourceTree = "<group>"; };
+		E8A8819C28ED362700C35006 /* NumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslands.swift; sourceTree = "<group>"; };
+		E8C6F6E628F1A0510018B120 /* 3SumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3SumClosest.swift; sourceTree = "<group>"; };
+		E8C6F6E828F1C0E30018B120 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		E8DE4B8E28D97560002825F1 /* SwiftCollections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCollections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DE4B9128D97560002825F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8DE4B9328D97560002825F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,7 +105,7 @@
 		E874603D28E53F9200CEE3C7 /* UnionFind */ = {
 			isa = PBXGroup;
 			children = (
-				E874603E28E53FA000CEE3C7 /* UnionFind.swift */,
+				E874603E28E53FA000CEE3C7 /* ZAUnionFind.swift */,
 			);
 			path = UnionFind;
 			sourceTree = "<group>";
@@ -107,6 +115,10 @@
 			children = (
 				E891218628DC0A4C00B5FACC /* ReverseWordsInStringIII.swift */,
 				E891218828DC576500B5FACC /* SearchInRotatedSrotedArray.swift */,
+				E8A8819C28ED362700C35006 /* NumberOfIslands.swift */,
+				E8C6F6E628F1A0510018B120 /* 3SumClosest.swift */,
+				E8C6F6E828F1C0E30018B120 /* Solution.swift */,
+				E821BE1D2900F273009CCFE9 /* IntegerToRoma.swift */,
 			);
 			path = Problem;
 			sourceTree = "<group>";
@@ -332,15 +344,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C6F6E728F1A0510018B120 /* 3SumClosest.swift in Sources */,
 				E8DE4BC328D97619002825F1 /* ZAStack.swift in Sources */,
+				E8C6F6E928F1C0E30018B120 /* Solution.swift in Sources */,
 				E8DE4BD528D9CDD8002825F1 /* ZADeque.swift in Sources */,
 				E8DE4B9628D97560002825F1 /* ViewController.swift in Sources */,
 				E8DE4B9228D97560002825F1 /* AppDelegate.swift in Sources */,
 				E8DE4BCC28D9ACAA002825F1 /* ZAQueue.swift in Sources */,
 				E891218728DC0A4C00B5FACC /* ReverseWordsInStringIII.swift in Sources */,
+				E8A8819D28ED362700C35006 /* NumberOfIslands.swift in Sources */,
 				E891218928DC576500B5FACC /* SearchInRotatedSrotedArray.swift in Sources */,
-				E874603F28E53FA000CEE3C7 /* UnionFind.swift in Sources */,
+				E874603F28E53FA000CEE3C7 /* ZAUnionFind.swift in Sources */,
 				E8DE4B9428D97560002825F1 /* SceneDelegate.swift in Sources */,
+				E821BE1E2900F273009CCFE9 /* IntegerToRoma.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
