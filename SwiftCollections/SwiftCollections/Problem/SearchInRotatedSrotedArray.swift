@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Solution1 {
+class SearchInRotatedSrotedArray {
     func search(nums:[Int], target: Int) -> Int {
         return 1
     }

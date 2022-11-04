@@ -6,7 +6,7 @@
 //
 
 
-class Solution {
+class ReverseWordsInStringIII {
     func reverseWords(_ s: String) -> String {
         return s.components(separatedBy: " ").map { word in
             return String(word.reversed())
