@@ -30,6 +30,7 @@
 		E8DE4BCE28D9C5B4002825F1 /* ZAQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE4BCB28D9ACAA002825F1 /* ZAQueue.swift */; };
 		E8DE4BD028D9C5C4002825F1 /* ZAQueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE4BCF28D9C5C4002825F1 /* ZAQueueTest.swift */; };
 		E8DE4BD528D9CDD8002825F1 /* ZADeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE4BD428D9CDD8002825F1 /* ZADeque.swift */; };
+		E8EE0E1F2918B0040074012E /* Maximum69Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EE0E1E2918B0040074012E /* Maximum69Number.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		E8DE4BCB28D9ACAA002825F1 /* ZAQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAQueue.swift; sourceTree = "<group>"; };
 		E8DE4BCF28D9C5C4002825F1 /* ZAQueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAQueueTest.swift; sourceTree = "<group>"; };
 		E8DE4BD428D9CDD8002825F1 /* ZADeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZADeque.swift; sourceTree = "<group>"; };
+		E8EE0E1E2918B0040074012E /* Maximum69Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum69Number.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				E8C6F6E628F1A0510018B120 /* 3SumClosest.swift */,
 				E8C6F6E828F1C0E30018B120 /* Solution.swift */,
 				E821BE1D2900F273009CCFE9 /* IntegerToRoma.swift */,
+				E8EE0E1E2918B0040074012E /* Maximum69Number.swift */,
 			);
 			path = Problem;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EE0E1F2918B0040074012E /* Maximum69Number.swift in Sources */,
 				E8C6F6E728F1A0510018B120 /* 3SumClosest.swift in Sources */,
 				E8DE4BC328D97619002825F1 /* ZAStack.swift in Sources */,
 				E8C6F6E928F1C0E30018B120 /* Solution.swift in Sources */,
